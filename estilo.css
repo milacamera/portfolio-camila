@@ -1,27 +1,38 @@
+/* Reset básico para remover margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização global */
 body {
     font-family: Arial, sans-serif;
     background-color: #EDF6F9;
-    margin: 0;
-    padding: 0;
     text-align: center;
+    color: #333;
+    padding: 20px;
 }
 
+/* Cabeçalho */
 header {
     background-color: #FFDDD2;
     padding: 20px;
     font-size: 1.2em;
+    border-radius: 10px;
 }
 
-h1 {
-    margin: 0;
-}
-
+/* Foto de perfil */
 img {
-    width: 150px;
-    border-radius: 50%;
+    width: 150px;  /* Ajuste para tamanho pequeno */
+    height: 150px; /* Mantém proporção */
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /* Garante que a imagem não fique distorcida */
     margin-top: 10px;
+    border: 3px solid #FFDDD2; /* Adiciona borda para destacar */
 }
 
+/* Seções */
 section {
     margin: 40px auto;
     padding: 20px;
@@ -32,6 +43,7 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Botões */
 button {
     background-color: #FFDDD2;
     border: none;
@@ -46,8 +58,10 @@ button:hover {
     background-color: #E0B9A8;
 }
 
+/* Rodapé */
 footer {
     background-color: #FFDDD2;
     padding: 10px;
     margin-top: 20px;
+    border-radius: 10px;
 }
