@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Estilização global */
+/* Estilização global do corpo */
 body {
     font-family: Arial, sans-serif;
     background-color: #EDF6F9;
@@ -76,7 +76,7 @@ section:hover {
 /* Botões para os links dos projetos */
 .botao-projeto {
     display: inline-flex;
-    align-items: center; /* Garante alinhamento vertical perfeito */
+    align-items: center; /* Garante alinhamento vertical */
     gap: 8px; /* Espaço entre o ícone e o texto */
     margin-top: 10px;
     padding: 10px 15px;
@@ -110,7 +110,7 @@ section:hover {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 20px;  /* Adiciona mais espaço entre os campos */
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
