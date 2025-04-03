@@ -41,13 +41,55 @@ section {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionando animação suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
 }
 
-/* Animação suave ao passar o mouse em "Sobre Mim" e "Projetos" */
+/* Animação ao passar o mouse em "Sobre Mim" e "Projetos" */
 section:hover {
-    transform: translateY(-5px);  /* Leve elevação */
+    transform: translateY(-5px);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção Projetos */
+#projetos {
+    margin-top: 40px;
+}
+
+/* Estilização dos projetos */
+.projeto {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Destaque ao passar o mouse */
+.projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Botões para os links dos projetos */
+.botao-projeto {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #FFDDD2;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse no botão */
+.botao-projeto:hover {
+    background-color: #E0B9A8;
+    transform: scale(1.1);
 }
 
 /* Ajuste de espaçamento na aba Contato */
