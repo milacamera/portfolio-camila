@@ -41,6 +41,29 @@ section {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionando animação suave */
+}
+
+/* Animação suave ao passar o mouse em "Sobre Mim" e "Projetos" */
+section:hover {
+    transform: translateY(-5px);  /* Leve elevação */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste de espaçamento na aba Contato */
+#contato input, 
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;  /* Adiciona mais espaço entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Melhor espaçamento do botão de envio */
+#contato button {
+    margin-top: 15px;
 }
 
 /* Botões */
