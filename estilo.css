@@ -75,7 +75,9 @@ section:hover {
 
 /* Botões para os links dos projetos */
 .botao-projeto {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;  /* Espaço entre o ícone e o texto */
     margin-top: 10px;
     padding: 10px 15px;
     background-color: #FFDDD2;
@@ -84,6 +86,13 @@ section:hover {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Ícone do GitHub dentro do botão */
+.botao-projeto img {
+    width: 20px; /* Tamanho do ícone */
+    height: 20px;
+    filter: brightness(0) invert(0); /* Mantém a cor original */
 }
 
 /* Efeito ao passar o mouse no botão */
